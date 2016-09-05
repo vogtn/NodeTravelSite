@@ -8,6 +8,7 @@ var handlebars = require('express3-handlebars')
         .create({ defaultLayout:'main' });
 app.engine('handlebars', handlebars.engine);
 app.set('view engine', 'handlebars');
+app.use(express.static(__dirname+ '/public'));
 
 //Routes
 app.get('/', function(req,res){
@@ -16,7 +17,6 @@ app.get('/', function(req,res){
 app.get('/about', function(req,res){
   res.render('about');
 });
-
 
 // 404 catch-all handler (middleware)
 app.use(function(req,res){
