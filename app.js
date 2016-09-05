@@ -15,7 +15,8 @@ app.get('/', function(req,res){
   res.render('home');
 });
 app.get('/about', function(req,res){
-  res.render('about');
+  var randomFortune = fortunes[Math.floor(Math.random() * fortunes.length)];
+  res.render('about', {fortune: randomFortune});
 });
 
 // 404 catch-all handler (middleware)
