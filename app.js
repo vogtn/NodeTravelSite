@@ -1,5 +1,6 @@
 var express = require('express');
 var app = express();
+var fortune = require('./lib/fortune.js');
 
 app.set('port', process.env.PORT || 3000);
 
