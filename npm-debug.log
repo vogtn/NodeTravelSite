@@ -1,0 +1,175 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '--save-dev',
+1 verbose cli   'grunt-exec' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.36
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose readDependencies using package.json deps
+6 verbose cache add [ 'grunt-exec', null ]
+7 verbose cache add name=undefined spec="grunt-exec" args=["grunt-exec",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: 'grunt-exec',
+8 verbose parsed url   path: 'grunt-exec',
+8 verbose parsed url   href: 'grunt-exec' }
+9 silly lockFile 3a47c75c-grunt-exec grunt-exec
+10 verbose lock grunt-exec C:\Users\Nic\AppData\Roaming\npm-cache\3a47c75c-grunt-exec.lock
+11 silly lockFile 3a47c75c-grunt-exec grunt-exec
+12 silly lockFile 3a47c75c-grunt-exec grunt-exec
+13 verbose addNamed [ 'grunt-exec', '' ]
+14 verbose addNamed [ null, '*' ]
+15 silly lockFile 422339f7-grunt-exec grunt-exec@
+16 verbose lock grunt-exec@ C:\Users\Nic\AppData\Roaming\npm-cache\422339f7-grunt-exec.lock
+17 silly addNameRange { name: 'grunt-exec', range: '*', hasData: false }
+18 verbose request where is /grunt-exec
+19 verbose request registry https://registry.npmjs.org/
+20 verbose request id a0c0cdfccca2eec9
+21 verbose url raw /grunt-exec
+22 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-exec' ]
+23 verbose url resolved https://registry.npmjs.org/grunt-exec
+24 verbose request where is https://registry.npmjs.org/grunt-exec
+25 info trying registry request attempt 1 at 15:21:33
+26 http GET https://registry.npmjs.org/grunt-exec
+27 http 200 https://registry.npmjs.org/grunt-exec
+28 silly registry.get cb [ 200,
+28 silly registry.get   { server: 'CouchDB/1.6.1 (Erlang OTP/R16B03)',
+28 silly registry.get     etag: '"6QMPKHYD3YMVIBDP71LTCVTDE"',
+28 silly registry.get     'content-type': 'application/json',
+28 silly registry.get     'content-encoding': 'gzip',
+28 silly registry.get     'cache-control': 'max-age=300',
+28 silly registry.get     'content-length': '5310',
+28 silly registry.get     'accept-ranges': 'bytes',
+28 silly registry.get     date: 'Mon, 05 Sep 2016 22:21:37 GMT',
+28 silly registry.get     via: '1.1 varnish',
+28 silly registry.get     age: '282',
+28 silly registry.get     connection: 'keep-alive',
+28 silly registry.get     'x-served-by': 'cache-sjc3138-SJC',
+28 silly registry.get     'x-cache': 'HIT',
+28 silly registry.get     'x-cache-hits': '1',
+28 silly registry.get     'x-timer': 'S1473114097.377448,VS0,VE0',
+28 silly registry.get     vary: 'Accept-Encoding' } ]
+29 silly addNameRange number 2 { name: 'grunt-exec', range: '*', hasData: true }
+30 silly addNameRange versions [ 'grunt-exec',
+30 silly addNameRange   [ '0.1.0',
+30 silly addNameRange     '0.1.1',
+30 silly addNameRange     '0.2.0',
+30 silly addNameRange     '0.2.1',
+30 silly addNameRange     '0.3.0',
+30 silly addNameRange     '0.4.0',
+30 silly addNameRange     '0.4.1',
+30 silly addNameRange     '0.4.2',
+30 silly addNameRange     '0.4.0-rc1',
+30 silly addNameRange     '0.4.5',
+30 silly addNameRange     '0.4.3',
+30 silly addNameRange     '0.4.6',
+30 silly addNameRange     '0.4.7-0',
+30 silly addNameRange     '0.4.7',
+30 silly addNameRange     '1.0.0' ] ]
+31 verbose addNamed [ 'grunt-exec', '1.0.0' ]
+32 verbose addNamed [ '1.0.0', '1.0.0' ]
+33 silly lockFile 3e261e1d-grunt-exec-1-0-0 grunt-exec@1.0.0
+34 verbose lock grunt-exec@1.0.0 C:\Users\Nic\AppData\Roaming\npm-cache\3e261e1d-grunt-exec-1-0-0.lock
+35 silly lockFile d31851fc--grunt-exec-grunt-exec-1-0-0-tgz https://registry.npmjs.org/grunt-exec/-/grunt-exec-1.0.0.tgz
+36 verbose lock https://registry.npmjs.org/grunt-exec/-/grunt-exec-1.0.0.tgz C:\Users\Nic\AppData\Roaming\npm-cache\d31851fc--grunt-exec-grunt-exec-1-0-0-tgz.lock
+37 verbose addRemoteTarball [ 'https://registry.npmjs.org/grunt-exec/-/grunt-exec-1.0.0.tgz',
+37 verbose addRemoteTarball   'dc2b73cba42eb649f7732e3b304ea0ddb562568b' ]
+38 info retry fetch attempt 1 at 15:21:34
+39 verbose fetch to= C:\Users\Nic\AppData\Local\Temp\npm-25024-tP0QBjlj\registry.npmjs.org\grunt-exec\-\grunt-exec-1.0.0.tgz
+40 http GET https://registry.npmjs.org/grunt-exec/-/grunt-exec-1.0.0.tgz
+41 http 200 https://registry.npmjs.org/grunt-exec/-/grunt-exec-1.0.0.tgz
+42 silly lockFile d31851fc--grunt-exec-grunt-exec-1-0-0-tgz https://registry.npmjs.org/grunt-exec/-/grunt-exec-1.0.0.tgz
+43 silly lockFile d31851fc--grunt-exec-grunt-exec-1-0-0-tgz https://registry.npmjs.org/grunt-exec/-/grunt-exec-1.0.0.tgz
+44 silly lockFile 3e261e1d-grunt-exec-1-0-0 grunt-exec@1.0.0
+45 silly lockFile 3e261e1d-grunt-exec-1-0-0 grunt-exec@1.0.0
+46 silly lockFile 422339f7-grunt-exec grunt-exec@
+47 silly lockFile 422339f7-grunt-exec grunt-exec@
+48 silly resolved [ { name: 'grunt-exec',
+48 silly resolved     description: 'Grunt task for executing shell commands.',
+48 silly resolved     version: '1.0.0',
+48 silly resolved     homepage: 'https://github.com/jharding/grunt-exec',
+48 silly resolved     author: { name: 'Jake Harding', email: 'jacob.s.harding@gmail.com' },
+48 silly resolved     contributors: [ [Object] ],
+48 silly resolved     repository: { type: 'git', url: 'git://github.com/jharding/grunt-exec.git' },
+48 silly resolved     bugs: { url: 'https://github.com/jharding/grunt-exec/issues' },
+48 silly resolved     license: 'MIT',
+48 silly resolved     main: 'Gruntfile.js',
+48 silly resolved     engines: { node: '>=0.8.0' },
+48 silly resolved     scripts: { test: 'node test/test.js' },
+48 silly resolved     peerDependencies: { grunt: '>=0.4' },
+48 silly resolved     devDependencies: { grunt: '^1.0.0', 'grunt-contrib-jshint': '^1.0.0' },
+48 silly resolved     keywords: [ 'grunt', 'gruntplugin', 'shell', 'exec', 'execute' ],
+48 silly resolved     gitHead: 'bed8ba66864ced6ae76415ecb94ece21bdc65f65',
+48 silly resolved     _id: 'grunt-exec@1.0.0',
+48 silly resolved     _shasum: 'dc2b73cba42eb649f7732e3b304ea0ddb562568b',
+48 silly resolved     _from: 'grunt-exec@',
+48 silly resolved     _npmVersion: '3.9.2',
+48 silly resolved     _nodeVersion: '6.0.0',
+48 silly resolved     _npmUser: { name: 'gwicksted', email: 'graeme.wicksted@gmail.com' },
+48 silly resolved     dist:
+48 silly resolved      { shasum: 'dc2b73cba42eb649f7732e3b304ea0ddb562568b',
+48 silly resolved        tarball: 'https://registry.npmjs.org/grunt-exec/-/grunt-exec-1.0.0.tgz' },
+48 silly resolved     maintainers: [ [Object], [Object] ],
+48 silly resolved     _npmOperationalInternal:
+48 silly resolved      { host: 'packages-12-west.internal.npmjs.com',
+48 silly resolved        tmp: 'tmp/grunt-exec-1.0.0.tgz_1466006781434_0.292367784306407' },
+48 silly resolved     directories: {},
+48 silly resolved     _resolved: 'https://registry.npmjs.org/grunt-exec/-/grunt-exec-1.0.0.tgz' } ]
+49 info install grunt-exec@1.0.0 into C:\Programming\NodeTravelSite
+50 info installOne grunt-exec@1.0.0
+51 verbose node_modules\grunt-exec unbuild
+52 verbose tar unpack C:\Users\Nic\AppData\Roaming\npm-cache\grunt-exec\1.0.0\package.tgz
+53 silly lockFile 304f34b2-avelSite-node-modules-grunt-exec tar://C:\Programming\NodeTravelSite\node_modules\grunt-exec
+54 verbose lock tar://C:\Programming\NodeTravelSite\node_modules\grunt-exec C:\Users\Nic\AppData\Roaming\npm-cache\304f34b2-avelSite-node-modules-grunt-exec.lock
+55 silly lockFile 961ce285-che-grunt-exec-1-0-0-package-tgz tar://C:\Users\Nic\AppData\Roaming\npm-cache\grunt-exec\1.0.0\package.tgz
+56 verbose lock tar://C:\Users\Nic\AppData\Roaming\npm-cache\grunt-exec\1.0.0\package.tgz C:\Users\Nic\AppData\Roaming\npm-cache\961ce285-che-grunt-exec-1-0-0-package-tgz.lock
+57 silly gunzTarPerm modes [ '777', '666' ]
+58 silly gunzTarPerm extractEntry package.json
+59 silly gunzTarPerm extractEntry .npmignore
+60 silly gunzTarPerm extractEntry README.md
+61 silly gunzTarPerm extractEntry Gruntfile.js
+62 silly gunzTarPerm extractEntry .travis.yml
+63 silly gunzTarPerm extractEntry LICENSE-MIT
+64 silly gunzTarPerm extractEntry tasks/exec.js
+65 silly gunzTarPerm extractEntry test/Gruntfile.js
+66 silly gunzTarPerm extractEntry test/test.js
+67 silly lockFile 304f34b2-avelSite-node-modules-grunt-exec tar://C:\Programming\NodeTravelSite\node_modules\grunt-exec
+68 silly lockFile 304f34b2-avelSite-node-modules-grunt-exec tar://C:\Programming\NodeTravelSite\node_modules\grunt-exec
+69 silly lockFile 961ce285-che-grunt-exec-1-0-0-package-tgz tar://C:\Users\Nic\AppData\Roaming\npm-cache\grunt-exec\1.0.0\package.tgz
+70 silly lockFile 961ce285-che-grunt-exec-1-0-0-package-tgz tar://C:\Users\Nic\AppData\Roaming\npm-cache\grunt-exec\1.0.0\package.tgz
+71 info preinstall grunt-exec@1.0.0
+72 verbose readDependencies using package.json deps
+73 verbose readDependencies using package.json deps
+74 silly resolved []
+75 verbose about to build C:\Programming\NodeTravelSite\node_modules\grunt-exec
+76 info build C:\Programming\NodeTravelSite\node_modules\grunt-exec
+77 verbose linkStuff [ false,
+77 verbose linkStuff   false,
+77 verbose linkStuff   false,
+77 verbose linkStuff   'C:\\Programming\\NodeTravelSite\\node_modules' ]
+78 info linkStuff grunt-exec@1.0.0
+79 verbose linkBins grunt-exec@1.0.0
+80 verbose linkMans grunt-exec@1.0.0
+81 verbose rebuildBundles grunt-exec@1.0.0
+82 info install grunt-exec@1.0.0
+83 info postinstall grunt-exec@1.0.0
+84 error peerinvalid The package grunt does not satisfy its siblings' peerDependencies requirements!
+84 error peerinvalid Peer grunt-exec@1.0.0 wants grunt@>=0.4
+84 error peerinvalid Peer grunt-cafe-mocha@0.1.13 wants grunt@~0.4.1
+84 error peerinvalid Peer grunt-contrib-jshint@1.0.0 wants grunt@>=0.4.0
+85 error System Windows_NT 6.2.9200
+86 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "--save-dev" "grunt-exec"
+87 error cwd C:\Programming\NodeTravelSite
+88 error node -v v0.10.36
+89 error npm -v 1.4.28
+90 error code EPEERINVALID
+91 verbose exit [ 1, true ]
