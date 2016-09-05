@@ -10,6 +10,13 @@ app.engine('handlebars', handlebars.engine);
 app.set('view engine', 'handlebars');
 app.use(express.static(__dirname + '/public'));
 
+//Test (middleware)
+app.use(function(req, res, next){
+  res.locals.showTests = app.get('env') !== 'production' &&
+        req.query.test === '1';
+      next();
+});
+
 //Routes
 app.get('/', function(req,res){
   res.render('home');
@@ -31,6 +38,7 @@ app.use(function(err, req, res, next){
   res.status(500);
   res.render('500');
 });
+
 
 app.listen(app.get('port'), function(){
   console.log('Express started on http://localhost:' + app.get('port') + '; press Ctrl-C to terminate.')
