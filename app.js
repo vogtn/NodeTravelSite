@@ -34,3 +34,11 @@ app.use(function(err, req, res, next){
 app.listen(app.get('port'), function(){
   console.log('Express started on http://localhost:' + app.get('port') + '; press Ctrl-C to terminate.')
 });
+
+//Fortune cookie array
+var fortunes =[
+  "Conquer your fears or they will conqure you.",
+  "Rivers need springs.",
+  "Do not fear what you don't know",
+  "You will have a pleasant surprise"
+];
