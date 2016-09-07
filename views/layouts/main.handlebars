@@ -2,6 +2,7 @@
 <html>
 <head>
   <title>Travel Website</title>
+  {{_sections.head}}
   {{#if showTests}}
     <link rel="stylesheet" href="/vendor/mocha.css">
   {{/if}}
@@ -24,5 +25,6 @@
     {{/if}}
     <script>mocha.run();</script>
   {{/if}}
+  {{{_sections.jquery}}}
 </body>
 </html>
