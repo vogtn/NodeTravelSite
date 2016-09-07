@@ -5,8 +5,16 @@ var fortune = require('./lib/fortune.js');
 app.set('port', process.env.PORT || 3000);
 
 //set up handlebars view engine
-var handlebars = require('express3-handlebars')
-        .create({ defaultLayout:'main' });
+var handlebars = require('express3-handlebars').create({
+  defaultLayout:'main',
+  helpers:{
+    section: function(name, options){
+      if(!this.sections) this._sections = {};
+      this.sections[name] = options.fn(this);
+      return null;
+    }
+  }
+});
 app.engine('handlebars', handlebars.engine);
 app.set('view engine', 'handlebars');
 app.use(express.static(__dirname + '/public'));
