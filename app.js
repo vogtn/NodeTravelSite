@@ -18,6 +18,13 @@ app.use(function(req, res, next){
       next();
 });
 
+//Middleware weather handler
+app.use(function(req,res,next){
+  if(!res.locals.partials) res.locals.partials = {};
+  res.locals.partials.weather = getWeatherData();
+  next();
+});
+
 //Routes
 app.get('/', function(req,res){
   res.render('home');
@@ -49,6 +56,29 @@ app.use(function(err, req, res, next){
   res.status(500);
   res.render('500');
 });
+
+
+//Dummy Weather Data
+function getWeatherData(){
+  return{
+    locations: [
+      {
+        name: 'Seattle',
+        forcastUrl: 'http://www.wunderground.com/US/WA/Seattle.html',
+        iconUrl: 'http://icons-ak.wxug.com/i/c/k/cloudy.gif',
+        weather: 'Overcast',
+        temp: '54.1 F (12.3 C)',
+      },
+      {
+        name: 'Portland',
+        forcastUrl: 'http://www.wunderground.com/US/OR/Portland.html',
+        iconUrl: 'http://icons-ak.wxug.com/i/c/k/partlycloudy.gif',
+        weather: 'Partly Cloudy',
+        temp: '55.0 F (12.8 C)',
+      },
+    ],
+  };
+}
 
 
 app.listen(app.get('port'), function(){
