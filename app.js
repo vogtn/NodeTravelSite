@@ -9,7 +9,7 @@ var handlebars = require('express3-handlebars').create({
   defaultLayout:'main',
   helpers:{
     section: function(name, options){
-      if(!this.sections) this._sections = {};
+      if(!this._sections) this._sections = {};
       this.sections[name] = options.fn(this);
       return null;
     }
