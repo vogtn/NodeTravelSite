@@ -84,6 +84,28 @@ app.get('/tours/request-group-rate', function(req, res){
   res.render('tours/request-group-rate');
 });
 
+//contest Route handler
+var formidable = require('formidable');
+
+app.get('/contest/vacation-photo', function(req,res){
+  var now= new Date();
+  res.render('contest/vacation-photo',{
+    year: now.getFullYear(),month: now.getMont()
+  });
+});
+
+app.post('/contest/vacation-photo/:year/:month', function(req,res){
+  var form= new formidable.IncomingForm();
+  form.parse(re, function(err, fields, files){
+    if(err) return res.redirect(303, '/error');
+    console.log('recieved fields:');
+    console.log(fields);
+    console.log('recieved files:');
+    console.log(files);
+    res.redirect(303, '/thankyou');
+  })
+})
+
 // 404 catch-all handler (middleware)
 app.use(function(req,res){
   res.status(404);
