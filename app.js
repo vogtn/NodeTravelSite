@@ -53,6 +53,18 @@ app.use(function(req,res,next){
   next();
 });
 
+//Ajax form handler
+app.post('/process', function(req,res){
+  if(req.xhr || req.accepts('json,html')==='json'){
+    //assumption looking for JSON
+    //if there were an error, we would send {error: 'error description'}
+    res.send({ success: true});
+  }else {
+    //if there were an error we would redirect to an error
+    res.redirect(303, '/thank-you');
+  }
+})
+
 //Routes
 app.get('/', function(req,res){
   res.render('home');
