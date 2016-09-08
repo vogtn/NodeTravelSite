@@ -3,4 +3,4 @@ Sample Travel website with NodeJS
 
 uses:
 
-|Javascript, NodeJs, Express, Mocha, Chai, ZombieJS, jshint, handlebars, Grunt
+|Javascript, jQuery, NodeJs, Express, Mocha, Chai, ZombieJS, jshint, handlebars, Grunt, AJAX forms
