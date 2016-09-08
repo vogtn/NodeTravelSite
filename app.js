@@ -31,7 +31,7 @@ app.get('/newsletter', function(req,res){
   res.render('newsletter', {csrf: 'CSRF token goes here'})
 });
 
-app.post('process', function(req,res){
+app.post('/process', function(req,res){
   console.log('Form (from querystring): ' + req.query.form);
   console.log('CSRF token (from hidden form field): ' + req.body._csrf);
   console.log('Name (from visible form field): ' + req.body.name);
