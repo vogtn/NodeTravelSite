@@ -1,0 +1,213 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'formidable' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.36
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose readDependencies using package.json deps
+6 verbose cache add [ 'formidable', null ]
+7 verbose cache add name=undefined spec="formidable" args=["formidable",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: 'formidable',
+8 verbose parsed url   path: 'formidable',
+8 verbose parsed url   href: 'formidable' }
+9 silly lockFile 8fdd0b7c-formidable formidable
+10 verbose lock formidable C:\Users\Nic\AppData\Roaming\npm-cache\8fdd0b7c-formidable.lock
+11 silly lockFile 8fdd0b7c-formidable formidable
+12 silly lockFile 8fdd0b7c-formidable formidable
+13 verbose addNamed [ 'formidable', '' ]
+14 verbose addNamed [ null, '*' ]
+15 silly lockFile fedfde19-formidable formidable@
+16 verbose lock formidable@ C:\Users\Nic\AppData\Roaming\npm-cache\fedfde19-formidable.lock
+17 silly addNameRange { name: 'formidable', range: '*', hasData: false }
+18 verbose request where is /formidable
+19 verbose request registry https://registry.npmjs.org/
+20 verbose request id 4abec95d74b2aba7
+21 verbose url raw /formidable
+22 verbose url resolving [ 'https://registry.npmjs.org/', './formidable' ]
+23 verbose url resolved https://registry.npmjs.org/formidable
+24 verbose request where is https://registry.npmjs.org/formidable
+25 info trying registry request attempt 1 at 14:10:29
+26 http GET https://registry.npmjs.org/formidable
+27 http 200 https://registry.npmjs.org/formidable
+28 silly registry.get cb [ 200,
+28 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+28 silly registry.get     etag: '"2B3RPYZ8FOH3ARONU1FMFNUBF"',
+28 silly registry.get     'content-type': 'application/json',
+28 silly registry.get     'content-encoding': 'gzip',
+28 silly registry.get     'cache-control': 'max-age=300',
+28 silly registry.get     'content-length': '10174',
+28 silly registry.get     'accept-ranges': 'bytes',
+28 silly registry.get     date: 'Thu, 08 Sep 2016 21:10:36 GMT',
+28 silly registry.get     via: '1.1 varnish',
+28 silly registry.get     age: '213',
+28 silly registry.get     connection: 'keep-alive',
+28 silly registry.get     'x-served-by': 'cache-sjc3633-SJC',
+28 silly registry.get     'x-cache': 'HIT',
+28 silly registry.get     'x-cache-hits': '3',
+28 silly registry.get     'x-timer': 'S1473369036.395623,VS0,VE0',
+28 silly registry.get     vary: 'Accept-Encoding' } ]
+29 silly addNameRange number 2 { name: 'formidable', range: '*', hasData: true }
+30 silly addNameRange versions [ 'formidable',
+30 silly addNameRange   [ '0.3.0',
+30 silly addNameRange     '0.4.0',
+30 silly addNameRange     '0.5.0',
+30 silly addNameRange     '0.6.0',
+30 silly addNameRange     '0.7.0',
+30 silly addNameRange     '0.8.0',
+30 silly addNameRange     '0.9.0',
+30 silly addNameRange     '0.9.1',
+30 silly addNameRange     '0.9.2',
+30 silly addNameRange     '0.9.3',
+30 silly addNameRange     '0.9.4',
+30 silly addNameRange     '0.9.5',
+30 silly addNameRange     '0.9.6',
+30 silly addNameRange     '0.9.7',
+30 silly addNameRange     '0.9.8',
+30 silly addNameRange     '0.9.9',
+30 silly addNameRange     '0.9.10',
+30 silly addNameRange     '0.9.11',
+30 silly addNameRange     '1.0.0',
+30 silly addNameRange     '1.0.1',
+30 silly addNameRange     '1.0.2',
+30 silly addNameRange     '1.0.3',
+30 silly addNameRange     '1.0.4',
+30 silly addNameRange     '1.0.5',
+30 silly addNameRange     '1.0.6',
+30 silly addNameRange     '1.0.7',
+30 silly addNameRange     '1.0.8',
+30 silly addNameRange     '1.0.9',
+30 silly addNameRange     '1.0.10',
+30 silly addNameRange     '1.0.11',
+30 silly addNameRange     '1.0.12',
+30 silly addNameRange     '1.0.13',
+30 silly addNameRange     '1.0.14',
+30 silly addNameRange     '1.0.15',
+30 silly addNameRange     '1.0.16',
+30 silly addNameRange     '1.0.17' ] ]
+31 verbose addNamed [ 'formidable', '1.0.17' ]
+32 verbose addNamed [ '1.0.17', '1.0.17' ]
+33 silly lockFile 801e8378-formidable-1-0-17 formidable@1.0.17
+34 verbose lock formidable@1.0.17 C:\Users\Nic\AppData\Roaming\npm-cache\801e8378-formidable-1-0-17.lock
+35 silly lockFile 4e4847b5-formidable-formidable-1-0-17-tgz https://registry.npmjs.org/formidable/-/formidable-1.0.17.tgz
+36 verbose lock https://registry.npmjs.org/formidable/-/formidable-1.0.17.tgz C:\Users\Nic\AppData\Roaming\npm-cache\4e4847b5-formidable-formidable-1-0-17-tgz.lock
+37 verbose addRemoteTarball [ 'https://registry.npmjs.org/formidable/-/formidable-1.0.17.tgz',
+37 verbose addRemoteTarball   'ef5491490f9433b705faa77249c99029ae348559' ]
+38 info retry fetch attempt 1 at 14:10:30
+39 verbose fetch to= C:\Users\Nic\AppData\Local\Temp\npm-1480-uENO8xSE\registry.npmjs.org\formidable\-\formidable-1.0.17.tgz
+40 http GET https://registry.npmjs.org/formidable/-/formidable-1.0.17.tgz
+41 http 200 https://registry.npmjs.org/formidable/-/formidable-1.0.17.tgz
+42 silly lockFile 4e4847b5-formidable-formidable-1-0-17-tgz https://registry.npmjs.org/formidable/-/formidable-1.0.17.tgz
+43 silly lockFile 4e4847b5-formidable-formidable-1-0-17-tgz https://registry.npmjs.org/formidable/-/formidable-1.0.17.tgz
+44 silly lockFile 801e8378-formidable-1-0-17 formidable@1.0.17
+45 silly lockFile 801e8378-formidable-1-0-17 formidable@1.0.17
+46 silly lockFile fedfde19-formidable formidable@
+47 silly lockFile fedfde19-formidable formidable@
+48 silly resolved [ { name: 'formidable',
+48 silly resolved     description: 'A node.js module for parsing form data, especially file uploads.',
+48 silly resolved     homepage: 'https://github.com/felixge/node-formidable',
+48 silly resolved     version: '1.0.17',
+48 silly resolved     devDependencies:
+48 silly resolved      { gently: '0.8.0',
+48 silly resolved        findit: '0.1.1',
+48 silly resolved        hashish: '0.0.4',
+48 silly resolved        urun: '~0.0.6',
+48 silly resolved        utest: '0.0.3',
+48 silly resolved        request: '~2.11.4' },
+48 silly resolved     directories: { lib: './lib' },
+48 silly resolved     main: './lib/index',
+48 silly resolved     scripts: { test: 'node test/run.js', clean: 'rm test/tmp/*' },
+48 silly resolved     engines: { node: '>=0.8.0' },
+48 silly resolved     repository:
+48 silly resolved      { type: 'git',
+48 silly resolved        url: 'git://github.com/felixge/node-formidable.git' },
+48 silly resolved     bugs: { url: 'http://github.com/felixge/node-formidable/issues' },
+48 silly resolved     optionalDependencies: {},
+48 silly resolved     dependencies: {},
+48 silly resolved     _id: 'formidable@1.0.17',
+48 silly resolved     dist:
+48 silly resolved      { shasum: 'ef5491490f9433b705faa77249c99029ae348559',
+48 silly resolved        tarball: 'https://registry.npmjs.org/formidable/-/formidable-1.0.17.tgz' },
+48 silly resolved     _from: 'formidable@',
+48 silly resolved     _npmVersion: '1.4.3',
+48 silly resolved     _npmUser: { name: 'felixge', email: 'felix@debuggable.com' },
+48 silly resolved     maintainers: [ [Object], [Object], [Object], [Object] ],
+48 silly resolved     _shasum: 'ef5491490f9433b705faa77249c99029ae348559',
+48 silly resolved     _resolved: 'https://registry.npmjs.org/formidable/-/formidable-1.0.17.tgz' } ]
+49 info install formidable@1.0.17 into C:\Programming\NodeTravelSite
+50 info installOne formidable@1.0.17
+51 verbose node_modules\formidable unbuild
+52 verbose tar unpack C:\Users\Nic\AppData\Roaming\npm-cache\formidable\1.0.17\package.tgz
+53 silly lockFile 86787b5e-avelSite-node-modules-formidable tar://C:\Programming\NodeTravelSite\node_modules\formidable
+54 verbose lock tar://C:\Programming\NodeTravelSite\node_modules\formidable C:\Users\Nic\AppData\Roaming\npm-cache\86787b5e-avelSite-node-modules-formidable.lock
+55 silly lockFile a2d97541-he-formidable-1-0-17-package-tgz tar://C:\Users\Nic\AppData\Roaming\npm-cache\formidable\1.0.17\package.tgz
+56 verbose lock tar://C:\Users\Nic\AppData\Roaming\npm-cache\formidable\1.0.17\package.tgz C:\Users\Nic\AppData\Roaming\npm-cache\a2d97541-he-formidable-1-0-17-package-tgz.lock
+57 silly gunzTarPerm modes [ '777', '666' ]
+58 silly gunzTarPerm extractEntry package.json
+59 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+60 silly gunzTarPerm extractEntry .npmignore
+61 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+62 silly gunzTarPerm extractEntry LICENSE
+63 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+64 silly gunzTarPerm extractEntry index.js
+65 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+66 silly gunzTarPerm extractEntry .travis.yml
+67 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
+68 silly gunzTarPerm extractEntry Readme.md
+69 silly gunzTarPerm modified mode [ 'Readme.md', 420, 438 ]
+70 silly gunzTarPerm extractEntry lib/file.js
+71 silly gunzTarPerm modified mode [ 'lib/file.js', 420, 438 ]
+72 silly gunzTarPerm extractEntry lib/incoming_form.js
+73 silly gunzTarPerm modified mode [ 'lib/incoming_form.js', 420, 438 ]
+74 silly gunzTarPerm extractEntry lib/index.js
+75 silly gunzTarPerm modified mode [ 'lib/index.js', 420, 438 ]
+76 silly gunzTarPerm extractEntry lib/json_parser.js
+77 silly gunzTarPerm modified mode [ 'lib/json_parser.js', 420, 438 ]
+78 silly gunzTarPerm extractEntry lib/multipart_parser.js
+79 silly gunzTarPerm modified mode [ 'lib/multipart_parser.js', 420, 438 ]
+80 silly gunzTarPerm extractEntry lib/octet_parser.js
+81 silly gunzTarPerm modified mode [ 'lib/octet_parser.js', 420, 438 ]
+82 silly gunzTarPerm extractEntry lib/querystring_parser.js
+83 silly gunzTarPerm modified mode [ 'lib/querystring_parser.js', 420, 438 ]
+84 silly lockFile 86787b5e-avelSite-node-modules-formidable tar://C:\Programming\NodeTravelSite\node_modules\formidable
+85 silly lockFile 86787b5e-avelSite-node-modules-formidable tar://C:\Programming\NodeTravelSite\node_modules\formidable
+86 silly lockFile a2d97541-he-formidable-1-0-17-package-tgz tar://C:\Users\Nic\AppData\Roaming\npm-cache\formidable\1.0.17\package.tgz
+87 silly lockFile a2d97541-he-formidable-1-0-17-package-tgz tar://C:\Users\Nic\AppData\Roaming\npm-cache\formidable\1.0.17\package.tgz
+88 info preinstall formidable@1.0.17
+89 verbose readDependencies using package.json deps
+90 verbose readDependencies using package.json deps
+91 silly resolved []
+92 verbose about to build C:\Programming\NodeTravelSite\node_modules\formidable
+93 info build C:\Programming\NodeTravelSite\node_modules\formidable
+94 verbose linkStuff [ false,
+94 verbose linkStuff   false,
+94 verbose linkStuff   false,
+94 verbose linkStuff   'C:\\Programming\\NodeTravelSite\\node_modules' ]
+95 info linkStuff formidable@1.0.17
+96 verbose linkBins formidable@1.0.17
+97 verbose linkMans formidable@1.0.17
+98 verbose rebuildBundles formidable@1.0.17
+99 info install formidable@1.0.17
+100 info postinstall formidable@1.0.17
+101 error peerinvalid The package grunt does not satisfy its siblings' peerDependencies requirements!
+101 error peerinvalid Peer grunt-exec@1.0.0 wants grunt@>=0.4
+101 error peerinvalid Peer grunt-cafe-mocha@0.1.13 wants grunt@~0.4.1
+101 error peerinvalid Peer grunt-contrib-jshint@1.0.0 wants grunt@>=0.4.0
+102 error System Windows_NT 6.2.9200
+103 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "--save" "formidable"
+104 error cwd C:\Programming\NodeTravelSite\views\contest
+105 error node -v v0.10.36
+106 error npm -v 1.4.28
+107 error code EPEERINVALID
+108 verbose exit [ 1, true ]
